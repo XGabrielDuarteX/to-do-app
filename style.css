@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c3938;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #122F51;
+    color: white;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.lista {
+    min-width: 200px;
+    min-height: 300px;
+    background-color: rgba(255,255,255,0.05);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.postit {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Cores por prioridade */
+.alta {
+    background-color: #8B0000;
+}
+
+.media {
+    background-color: #b8860b;
+}
+
+.baixa {
+    background-color: #2e8b57;
+}
+
+.default {
+    background-color: #122F51;
+}
+
+/* tarefa concluída */
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
