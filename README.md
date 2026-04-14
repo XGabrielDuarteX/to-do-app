@@ -87,3 +87,7 @@ Desenvolvido por Gabriel Duarte em conjunto com o parceiro GPT🚀
 ## ℹ️ Obs
 
 Esse projeto foi realizado com apenas um prompt detalhado, passado do autor à IA, visando analisar o prompt engineer do usuário e o potencial da IA.
+
+===========================================
+Para melhor visualização do projeto, acesse: https://to-do-app-rho-two-96.vercel.app/
+===========================================
